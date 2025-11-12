@@ -1,8 +1,15 @@
-LTspice 24.0.12 for Windows
-Circuit: * G:\Mi unidad\KICAD_Projects\Fuente-Variable-con-Microcontrolador-\Simulaciones\FusibleElectronico.asc
-Start Time: Fri Nov  7 22:43:41 2025
+LTspice 24.1.8 for Windows
+Circuit: G:\Mi unidad\KICAD_Projects\Fuente-Variable-con-Microcontrolador-\Simulaciones\FusibleElectronico.net
+Start Time: Tue Nov 11 23:41:51 2025
 solver = Normal
-Maximum thread count: 2
+Maximum thread count: 4
 tnom = 27
 temp = 27
-method = modified trap
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.786 seconds.
+
+Files loaded:
+G:\Mi unidad\KICAD_Projects\Fuente-Variable-con-Microcontrolador-\Simulaciones\FusibleElectronico.net
+C:\Users\EmanuelDecima\AppData\Local\LTspice\lib\cmp\standard.mos
+
