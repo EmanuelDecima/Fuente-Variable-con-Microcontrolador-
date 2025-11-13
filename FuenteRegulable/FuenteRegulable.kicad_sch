@@ -8283,28 +8283,6 @@
 			)
 		)
 	)
-	(global_label "BTN_PLUS"
-		(shape input)
-		(at 60.96 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "29c18d5d-27df-423a-b420-8cccd6183485")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.319 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Vo_Meas"
 		(shape input)
 		(at 223.52 34.29 0)
@@ -8371,6 +8349,28 @@
 			)
 		)
 	)
+	(global_label "BTN_RETURN"
+		(shape input)
+		(at 60.96 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43c34da1-b24a-4f9d-8ee6-a7e3b925a070")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.7985 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Vo_ADC"
 		(shape input)
 		(at 271.78 74.93 0)
@@ -8428,6 +8428,28 @@
 		(uuid "4a76a19e-a9fd-4b37-865c-463a9f6b124f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 247.2484 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTN_ENTER"
+		(shape input)
+		(at 60.96 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bace38b-6d57-4c56-9fe5-ddf6ec148ffe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.347 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,9 +8525,9 @@
 			)
 		)
 	)
-	(global_label "BTN_RETURN"
+	(global_label "BTN_UP"
 		(shape input)
-		(at 60.96 133.35 0)
+		(at 60.96 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8513,9 +8535,9 @@
 			)
 			(justify left)
 		)
-		(uuid "61e2254f-0c01-4b2a-85a1-75bcb1a0b504")
+		(uuid "65716e37-fcbd-4fb7-b2fa-936ded1dd769")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.7985 133.35 0)
+			(at 71.0814 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,28 +8635,6 @@
 			)
 		)
 	)
-	(global_label "BTN_ENTER"
-		(shape input)
-		(at 60.96 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "965c936f-c21d-4d96-9661-9a7eeae1ede3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.347 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C_SCL"
 		(shape output)
 		(at 275.59 127 270)
@@ -8679,28 +8679,6 @@
 			)
 		)
 	)
-	(global_label "BTN_MINUS"
-		(shape input)
-		(at 60.96 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1635fb2-d2a3-41e0-9bc9-9c88997430cb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.4076 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Vo_Meas"
 		(shape input)
 		(at 246.38 72.39 180)
@@ -8719,6 +8697,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTN_DOWN"
+		(shape input)
+		(at 60.96 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab5b8a1d-521b-47e9-b5b2-9cc78536c136")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.8633 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTN_PLUS"
+		(shape input)
+		(at 60.96 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abeb00bd-bea3-4524-b4a3-30e74a93f331")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.319 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8767,9 +8789,9 @@
 			)
 		)
 	)
-	(global_label "BTN_DOWN"
+	(global_label "BTN_MINUS"
 		(shape input)
-		(at 60.96 130.81 0)
+		(at 60.96 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8777,9 +8799,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d418c2ab-290b-4ffe-be9b-ac9fc4502336")
+		(uuid "d58fd209-eea9-47fa-9508-db1e386719d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.8633 130.81 0)
+			(at 74.4076 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8890,28 +8912,6 @@
 		(uuid "e73ba8db-236f-4ae4-aaf5-ee265ecceb0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 75.9797 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BTN_UP"
-		(shape input)
-		(at 60.96 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eb8b2da5-dce8-4a2d-9b08-1b2e0408a405")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.0814 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
